@@ -149,13 +149,15 @@ Using the random forest models (both smote and original data), as well as the XG
 """)
 
 tab1, tab2 , tab3= st.tabs(["Non-SMOTE RF", "SMOTE RF", "XGB SMOTE"])
+ASSETS_DIR = Path(__file__).parent.parent / "assets"
+
 with tab1:
     st.subheader("Random Forest Feature Importance (Non-SMOTE)")
-    st.image("assets/03_original_feature_importance_rf.png", use_container_width=True)
+    st.image(str(ASSETS_DIR / "03_original_feature_importance_rf.png"), use_container_width=True)
 
 with tab2:
     st.subheader("Random Forest Feature Importance (SMOTE)")
-    st.image("assets/03_smote_feature_importance_rf.png", use_container_width=True)
+    st.image(str(ASSETS_DIR / "03_smote_feature_importance_rf.png"), use_container_width=True)
 
 with tab3:
     st.subheader("XGBoost Feature Importance (SMOTE) — SHAP")
