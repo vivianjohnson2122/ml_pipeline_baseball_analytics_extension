@@ -9,7 +9,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-MLRUNS_PATH = Path("../mlruns") 
+MLRUNS_PATH = Path(__file__).parent.parent / "mlruns"
 EXPERIMENT_ID = "0"
 PRIMARY_METRIC = "best_f1_macro"
 # ─────────────────────────────────────────────────────────────────────────────
