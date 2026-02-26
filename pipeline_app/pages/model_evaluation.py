@@ -185,10 +185,10 @@ with tab3:
             X = load_shap_data()
             shap_values = compute_shap(xgb_model, X)
 
-        fig, ax = plt.subplots()
-        shap.summary_plot(shap_values, X, plot_type="bar", show=False, ax=ax)
-        st.pyplot(fig)
-        plt.close()
+            shap.summary_plot(shap_values, X, plot_type="bar", show=False)
+            fig = plt.gcf()
+            st.pyplot(fig)
+            plt.close()
 
 
 st.markdown("""
