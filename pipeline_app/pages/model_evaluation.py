@@ -186,7 +186,7 @@ with tab3:
             shap_values = compute_shap(xgb_model, X)
 
         fig, ax = plt.subplots()
-        shap.summary_plot(shap_values, X, plot_type="bar", show=False)
+        shap.summary_plot(shap_values, X, plot_type="bar", show=False, ax=ax)
         st.pyplot(fig)
         plt.close()
 
