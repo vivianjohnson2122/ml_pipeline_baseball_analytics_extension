@@ -1,0 +1,10 @@
+artifact_location: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/models/m-c9204259cd6f4d4e986c159e5a1c4210/artifacts
+creation_timestamp: 1772041824473
+experiment_id: '0'
+last_updated_timestamp: 1772041827075
+model_id: m-c9204259cd6f4d4e986c159e5a1c4210
+model_type: null
+name: mlr_original
+source_run_id: fef8884876624149a185c44357311f47
+status: 2
+status_message: null

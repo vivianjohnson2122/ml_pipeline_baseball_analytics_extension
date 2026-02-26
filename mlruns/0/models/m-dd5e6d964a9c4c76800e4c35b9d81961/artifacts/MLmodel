@@ -1,0 +1,23 @@
+artifact_path: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/models/m-dd5e6d964a9c4c76800e4c35b9d81961/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-dd5e6d964a9c4c76800e4c35b9d81961
+model_size_bytes: 1473
+model_uuid: m-dd5e6d964a9c4c76800e4c35b9d81961
+prompts: null
+run_id: e941ec8029d044ed8d73ea84d77b29d8
+utc_time_created: '2026-02-25 17:52:38.075675'

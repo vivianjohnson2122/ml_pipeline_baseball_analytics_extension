@@ -1,0 +1,10 @@
+artifact_location: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/models/m-11a27efa2e8e486ea4c6ec78fc90d6c8/artifacts
+creation_timestamp: 1772042114134
+experiment_id: '0'
+last_updated_timestamp: 1772042116686
+model_id: m-11a27efa2e8e486ea4c6ec78fc90d6c8
+model_type: null
+name: xgboost_smote
+source_run_id: 02a5f7da2d40495b938ff877676109e5
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/models/m-de15ed9248044069a36f063cc98a3a27/artifacts
+creation_timestamp: 1772041868239
+experiment_id: '0'
+last_updated_timestamp: 1772041870493
+model_id: m-de15ed9248044069a36f063cc98a3a27
+model_type: null
+name: rf_original
+source_run_id: 19a7660427ec4ce1ab4db6fc4f5f2bde
+status: 2
+status_message: null

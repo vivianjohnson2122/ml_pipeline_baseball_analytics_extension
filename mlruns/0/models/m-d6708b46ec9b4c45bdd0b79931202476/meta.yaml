@@ -1,0 +1,10 @@
+artifact_location: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/models/m-d6708b46ec9b4c45bdd0b79931202476/artifacts
+creation_timestamp: 1772041896068
+experiment_id: '0'
+last_updated_timestamp: 1772041898424
+model_id: m-d6708b46ec9b4c45bdd0b79931202476
+model_type: null
+name: xgboost_original
+source_run_id: 30dccbbfd6254ceeb48d7f00c5b91cf6
+status: 2
+status_message: null

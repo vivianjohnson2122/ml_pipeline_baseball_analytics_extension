@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/6c78308ab97143cc9e7f7c1d407f93c5/artifacts
+end_time: 1772042061285
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c78308ab97143cc9e7f7c1d407f93c5
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772041960448
+status: 3
+tags: []
+user_id: vivianjohnson

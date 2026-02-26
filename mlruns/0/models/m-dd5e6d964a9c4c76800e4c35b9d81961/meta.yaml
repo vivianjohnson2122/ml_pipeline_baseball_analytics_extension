@@ -1,0 +1,10 @@
+artifact_location: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/models/m-dd5e6d964a9c4c76800e4c35b9d81961/artifacts
+creation_timestamp: 1772041958058
+experiment_id: '0'
+last_updated_timestamp: 1772041960445
+model_id: m-dd5e6d964a9c4c76800e4c35b9d81961
+model_type: null
+name: mlr_smote
+source_run_id: e941ec8029d044ed8d73ea84d77b29d8
+status: 2
+status_message: null

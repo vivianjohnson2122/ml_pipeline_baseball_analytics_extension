@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/e941ec8029d044ed8d73ea84d77b29d8/artifacts
+end_time: 1772041960447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e941ec8029d044ed8d73ea84d77b29d8
+run_name: Multinomial Logistic Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772041898565
+status: 3
+tags: []
+user_id: vivianjohnson

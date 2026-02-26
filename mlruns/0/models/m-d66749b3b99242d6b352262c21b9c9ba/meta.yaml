@@ -1,0 +1,10 @@
+artifact_location: file:///Users/vivianjohnson/Desktop/thesis_extension/mlruns/0/models/m-d66749b3b99242d6b352262c21b9c9ba/artifacts
+creation_timestamp: 1772042058580
+experiment_id: '0'
+last_updated_timestamp: 1772042061283
+model_id: m-d66749b3b99242d6b352262c21b9c9ba
+model_type: null
+name: rf_smote
+source_run_id: 6c78308ab97143cc9e7f7c1d407f93c5
+status: 2
+status_message: null
