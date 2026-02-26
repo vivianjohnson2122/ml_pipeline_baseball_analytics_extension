@@ -1,4 +1,5 @@
 import streamlit as st
+from pathlib import Path
 
 st.title("ML Pipeline Architecture")
 
@@ -17,7 +18,8 @@ st.markdown("""
  - Synthetic Minority Oversampling is applied to address the significant class imbalance across hit outcomes. This imbalance makes sense, as singles are more popular than homeruns. This allows the model to better learn decision boundaries for the underrepresented hit types while also preserving the overall data structure.
 """)
 
-st.image("assets/02_smote_comparison.png", use_container_width=True)
+ASSETS_DIR = Path(__file__).parent.parent / "assets"
+st.image(ASSETS_DIR / "02_smote_comparison.png", use_container_width=True)
 
 
 st.markdown("""
@@ -44,4 +46,5 @@ st.divider()
 st.markdown("## Architecture Diagram")
 
 # optional image placeholder
-st.image("assets/architecture_diagram.png", caption="Pipeline Diagram")
+
+st.image(ASSETS_DIR / "architecture_diagram.png", caption="Pipeline Diagram")
