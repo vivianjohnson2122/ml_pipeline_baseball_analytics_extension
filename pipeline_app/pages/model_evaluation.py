@@ -164,7 +164,8 @@ with tab3:
 
     @st.cache_data
     def load_shap_data():
-        df = pd.read_csv("../data/processed/train_smote.csv")
+        DATA_PATH = Path(__file__).parent.parent.parent / "data" / "processed" / "train_smote.csv"
+        df = pd.read_csv(DATA_PATH)
         target_col = df.columns[-1]  # assumes target is the last column
         X = df.drop(columns=[target_col])
         return X
