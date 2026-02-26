@@ -5,9 +5,11 @@ import matplotlib.pyplot as plt
 import pickle 
 from pathlib import Path
 
+MLRUNS_PATH = Path(__file__).parent.parent.parent / "mlruns"
+
 @st.cache_resource
 def load_xgb_smote():
-    exp_path = Path("../mlruns/0")
+    exp_path = MLRUNS_PATH / "0"
     for run_dir in exp_path.iterdir():
         if not run_dir.is_dir() or not all(c in "0123456789abcdef" for c in run_dir.name):
             continue
