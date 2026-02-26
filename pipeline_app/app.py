@@ -16,11 +16,11 @@ st.subheader("End-to-End Machine Learning System in Python")
 st.markdown("""
 ### Project Summary
 
-  This project aims to study classification and its applications to Major League Baseball (MLB) batting data. The goal is to develop a model that is capable of classifying a hit based on various in-game metrics, including release speed, launch angle, bat speed, and swing length. The model development process incorporates different statistical techniques such as KNN Imputing, K-Means Cluster Analysis, feature engineering, and cross validation to understand the distributions of the data and how observations are being classified in the multinomial model. Additionally, specific balancing techniques are explored to address inherent bias and imbalance in the data for the purpose of making more accurate classifications. This app was also developed to explore individual players and how altering their hitting profile impacts their season statistics and hit outcomes. 
+  This project aims to study classification and its applications to Major League Baseball (MLB) batting data. The goal is to develop a model that is capable of classifying a hit based on various in-game metrics, including release speed, launch angle, bat speed, and swing length. The model development process incorporates different statistical techniques such as KNN Imputing, K-Means Cluster Analysis, feature engineering, and cross validation to understand the distributions of the data and how observations are being classified in the different models. Additionally, specific balancing techniques are explored to address inherent bias and imbalance in the data for the purpose of making more accurate classifications. 
 
 This project helps shed insight into the question: "What differentiates a homerun from a single or an extra basehit?" We study the different mechanics and situations that go into each hit type, and attempt to shed light on how they are different, and make predictions given data.
             
-This is an extension of an undergraduate project I did in R, that is more limited. This project explores more indepth model selection, it trains and builds three models, not just logistic regression. It also engineers more features to be able to capture more signal out of other categorical varaibles that may have been missed. 
+This is an extension of my undergraduate Honors Capstone project, completed in R, that is more limited. This project explores more indepth model selection, trains and builds three models, not just logistic regression. It also engineers more features to be able to capture more signal out of other categorical variables that may have been missed. 
 """)
 
 st.divider()
